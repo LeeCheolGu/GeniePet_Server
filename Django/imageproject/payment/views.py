@@ -10,7 +10,7 @@ from django.core import serializers
 def kakaoPay(request):
     url = "https://kapi.kakao.com"
     headers = {
-        'Authorization': "KakaoAK " + "b015e63a2c205f0cdad176489f142a37",
+        'Authorization': "KakaoAK " + "your number",
         'Content-type': 'application/x-www-form-urlencoded;charset=utf-8',
     }
     params = {
@@ -42,7 +42,7 @@ def success(request):
 def payapporve(pg):
     url = "https://kapi.kakao.com"
     headers = {
-        'Authorization': "KakaoAK " + "b015e63a2c205f0cdad176489f142a37",
+        'Authorization': "KakaoAK " + "your number",
         'Content-type': 'application/x-www-form-urlencoded;charset=utf-8',
     }
     params = {
